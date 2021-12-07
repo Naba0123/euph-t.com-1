@@ -1,0 +1,10 @@
+version: '3'
+services:
+  python:
+    image: php:7.4.25-apache
+    volumes:
+      - .:/var/www/html:cached
+    working_dir: /var/www/html
+    tty: true
+    ports:
+      - "8080:80"

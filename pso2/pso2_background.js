@@ -1,0 +1,1 @@
+﻿document.write('<img class="bg" src="https://placehold.jp/777777/777777/1x1.png" alt="">')
